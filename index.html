@@ -27,6 +27,9 @@
     <script src="js/index.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
 <title>Homepage</title>
 </head>
@@ -57,21 +60,27 @@
 <section class="heroImg">
     <div class="separator">
         <img src="images/img_profile_polaroid.png" class="right">
-            <div class="text">
-<br>
-<br>
-                <h1>Hey There!</h1>
-            <p>
-             I'm Nitya Dholakia, a tax accountant turned UX Designer
-            </p>
+        <br>
+        <br>
+        <br>
+            <div>
+            <h1 class="main-title">Hey There!</h1>
+        <br>
+            <h1 class="main-sub-title">
+            I'm 
+            <span class="teal-text">Nitya Dholakia</span>, a tax accountant turned
+            <span class="teal-text">UX Designer</span>
             </div>
+        
         <br>
         <br>
         <br>
         <div>
-            <button>View Work</button>
-            <button class=secondary>View Resume</button>
+            <button class="primary">View Work</button>
+            <button class="secondary">View Resume</button>
         </div>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -85,12 +94,11 @@
         <img src="images/img_Skills_Library.png">
     </div>
     <div class="text">
-        <h1>My Skills Library</h1>
-        <p>
-         These are some of the skills and tools I use throughout my design process and case studies. Learn more about me and my skills in the About section!
-         </p>
-         <div>
-            <button>About Me</button>
+        <h1 class="main-title">My Skills Library</h1>
+        <p> These are some of the skills and tools I use throughout my design process and case studies. Learn more about me and my skills in the About section!</p>
+        <br>
+        <div>
+            <button class="primary">About Me</button>
         </div>
         </div>
 
@@ -102,66 +110,61 @@
 <!-- My Work Section Constructed using CSS Grid -->
 <section class="myWork">
     <div class="text">
-        <h1>My Work</h1>
-        <p1>(featured case studies)</p1> 
+        <h1 class="main-title">My Work</h1>
     </div>
 
 <div class="workGrid">
     <div class="image1">
         <img src="images/img_DOL.png" class="left" width="600px" height="450px">
     </div>
-        <div class="project1">
-            <h1>RWD & IA Case Study</h1>
-            <h3>U.S. Department of Labor</h3>
-            <p>How might we create a 
-                welcoming and informative website without overwhelming the user...</p>
-            <button>Read Case Study</button>
-        </div>
-
-
-           
-            <div class="project2">
-                <h1>Desktop Redesign</h1>
-                <h3>O.C. Hiking Club</h3>
-                <p>How might we create a space where users feel supported and in turn want to show their support ...</p>
-             <button>Read Case Study</button>        
-             </div>
-            <div class="image2">
-                <img src="images/img_Hiking.png" class="right" width="700px" height="500px">
-            </div>
- 
+    <div class="project1">
+        <h1 class="section-title">RWD & IA Case Study</h1>
+        <h2 class="sub-heading">U.S. Department of Labor</h2>
+        <p>How might we create a welcoming and informative website without overwhelming the user...</p>
+        <br>
+        <button class="primary">Read Case Study</button>
+    </div>
+        
+    <div class="project2">
+        <h1 class="section-title">Desktop Redesign</h1>
+        <h2 class="sub-heading">O.C. Hiking Club</h2>
+        <p>How might we create a space where users feel supported and in turn want to show their support ...</p>
+        <br>
+        <button class="primary">Read Case Study</button>        
+    </div>
+    <div class="image2">
+        <img src="images/img_Hiking.png" class="right" width="700px" height="500px">
+    </div>
        
-            <div class="image3">
-                <img src="images/img_MYtinerary.png" class="left" width="650" height="475">
-            </div>
-            <div class="project3">
-                 <h1>Mobile App Case Study</h1>
-                <h3>MYtinerary</h>
-                <p>How might we help users have a hassle free experience while planning a personalized itinerary...</p>
-                <button>Read Case Study</button>
-            </div>
+    <div class="image3">
+        <img src="images/img_MYtinerary.png" class="left" width="650" height="475">
+    </div>
+    <div class="project3">
+        <h1 class="section-title">Mobile App Case Study</h1>
+        <h2 class="sub-heading">MYtinerary</h2>
+        <p>How might we help users have a hassle free experience while planning a personalized itinerary...</p>
+        <br>
+        <button class="primary">Read Case Study</button>
+    </div>
 </div>
 <br>
 <br>
 <div>
-    <h4>Always iterating so please do visit often</h4>
-    <h5>“Digital design is like painting, except the paint never dries.”
-     "-Neville Brody" </h5>
+    <h3>Always iterating so please do visit often</h3>
+    <h4>“Digital design is like painting, except the paint never dries.”
+     "-Neville Brody" </h4>
 </div>
 <br>
 <hr size="10" width="90%" color=#AC6E64> 
 <br>
-<br>
 <div class="text">
-    <h1>Let's Chat!</h1>
+    <h1 class="section-title">Let's Chat!</h1>
      <p> To learn more about me, my work, or to just chat over a coffee feel free to shoot me a message/email or give me a call :)</p>
      <br>
      <div>
-        <button>Contact</button>
+        <button class="primary">Contact</button>
         <button class=secondary>View Resume</button>
     </div>
-<br>
-<br>
 <br>
 <br>
 <br>
@@ -181,15 +184,6 @@
             <img src="images/img_Twitter.png" width="45" height="45">
             <img src="images/img_Instagram.png" width="45" height="45">
         </div>
-
-        <div class="menu">
-            <ul>
-                <li>Work</li>
-                <li>About</li>
-                <li>Resume</li>
-             <li>Contact</li>
-             </ul> 
-         </div>
     
      </div>
     </footer>

@@ -1,12 +1,12 @@
 .body {
-    margin: 0;
+    margin: auto;
     background-color: #222;
     font-family:'Montserrat';
     max-width: 1020px;
 }
 .container {
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
 }
 header {
     background: #FFFFFF;
@@ -20,34 +20,33 @@ header::after {
 .logo {
     float: left;
     padding: 10px 0;
-    width: 150px;
+    width: 120px;
+    margin-left: 0px;
 }
 nav {   
     float: right;
-    padding: 10px 0;
+    padding: 2px 0;
 }
-
 .ul {
 width: 50%;
-margin-left: auto;
+margin: auto;
 }
-
 nav ul {
-    margin: 0;
+    margin: auto 0;
     padding: 0;
     list-style: none;
 }
 nav li{
     display: inline-block;
     margin-left: 80px;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 nav a {
     color: #444;
     text-decoration: none;
     font-family:'Montserrat';
-    font-size: 24px;
+    font-size: 16px;
 }
 
 nav a:hover {
@@ -78,14 +77,14 @@ i:hover {
     margin-left: 40%;
 }
 .card-img {
-  width: 75%;  
+  width: 45%;  
 justify-content:left;
 }
 .card-img img {
-    border-radius: 30px;
-    width: 300%;
+    border-radius: 10px;
+    width: 280%;
     margin-right: auto;
-    padding: 10px 0;
+    padding: -20px;
     margin: 20x;
 }
 .mySkills {
@@ -106,21 +105,21 @@ justify-content:left;
     border-radius: 30px;
     width: 90%;
     margin-right: auto;
-    padding: 50px 0;
+    padding: 1px 0;
     margin: 20x;
 }
 .workGrid .image2 {
     border-radius: 30px;
     width: 90%;
     margin-left: auto;
-    padding: 50px 0;
+    padding: 5px 0;
     margin: 20x;
 }
 .workGrid .image3 {
     border-radius: 20px;
     width: 130%;
     margin-left: auto;
-    padding: 50px 0;
+    padding: 20px 0;
     margin: 30x;
 }
 .project1 {
@@ -160,24 +159,24 @@ justify-content:left;
     align-content: flex-end;
     padding-left: 15px;
 }
-button {
+/*==== Button ====*/
+.primary {
     background-color: #057790;
     color: #FFFFFF;
     font-family: "Montserrat";
     font-weight: bolder;
     font-size: 22px;
-    border-radius: 10px;
+    border-radius: 30px;
     stroke: white;
-    width: 350px;  
+    width: 320px;  
     border: 2px solid #057790;
     padding: 14px;
     cursor: pointer;
 }
-
-button:hover {
+.primary:hover {
     box-shadow: 0 0 15px #3BA8C0;
     background-color: #3BA8C0;
-    border-radius: 10px; 
+    border-radius: 30px; 
     border: 2px solid #3BA8C0;
 }
 .secondary {
@@ -186,11 +185,9 @@ button:hover {
     font-family: "Montserrat";
     font-weight: bolder;
     font-size: 22px;
-    border: 6pt black;
-    border-radius: 10px;
-    stroke: white;
-    width: 30%;  
-    border: 2px solid #057790;
+    border-radius: 30px;    
+    width: 320px;  
+    border: 3px solid #057790;
     padding: 14px 28px;
     cursor: pointer;
 }
@@ -202,107 +199,82 @@ button:hover {
     padding: 14px 28px;
     cursor: pointer;
 }
+/*==== Typography ====*/
 .text {
 padding-top: initial;
 }
-.text h1 {
+.main-title {
     color: black;
-    font-size: 40px;
-    font-weight: bolder;
+    font-size: 45px;
+    font-weight: 700;
     font-family: "Montserrat";
 }
-h1 {
+.main-sub-title {
     color: black;
     font-size: 40px;
-    font-weight: 900;
-    font-family: "Montserrat";
-}
-.text h2 {
-    color: black;
-    font-size: 40px;
-    font-weight: 900;
-    font-family: "Montserrat";
-    text-align: right;
-}
-h2 {
-    color: black;
-    font-size: 40px;
-    font-weight: 900;
-    font-family: "Montserrat";
-    text-align: right;
-}
-h3 {
-    color: black;
-    font-size: 30px;
     font-weight: 400;
     font-family: "Montserrat";
 }
-h4 {
+.section-title {
+    color: black;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: "Montserrat";   
+}
+.sub-heading {
+    color: black;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.teal-text {
+    color: #A95547;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+h3 {
     color: black;
     font-size: 32px;
     font-weight:lighter;
     font-family: 'Handlee', cursive;
     text-align: center;
 }
-h5 {
+h4 {
     color: black;
     font-size: 24px;
     font-weight:lighter;
     font-family: "Montserrat";
     text-align: center;
 }
-h6 {
-    color: black;
-    font-size: 20px;
-    font-weight:lighter;
-    font-family: "Montserrat";
-    text-align: center;
-}
 
-.text p {
-    color: black;
-    font-size: 32px;
-    font-family: "Montserrat";
-}
 p {
    color: black;
-    font-size: 28px;
+    font-size: 20px;
     font-family: "Montserrat";   
 }
-.text .p1 {
-    color: black;
-    font-size: 20px;
-    font-family: "Montserrat"; 
-}
-.p1 {
-    color: black;
-    font-size: 40px;
-    font-weight:lighter;
-    font-family: "Montserrat";
-    text-align: center;  
-}
+
 hr {
-    width: 90%;
+    width: 100%;
     height: 4px;
     border-radius: 10px;
     color: #AC6E64;
     margin-top: 40px;
 }
-
 .footerGrid {
-    background-color: #AC6E64;
-    text-align: left;
+    background-color: #D6816A;
     margin: auto;
-    padding-left: 10%;
-    padding-right: 50%;
+    padding-left: 0%;
+    padding-right: 0%;
     padding-top: 10px;
-    width: 179%;
-    height: 200px;
-    margin-left: -470px;
+    width: 120%;
+    height: 120px;
     display: grid;
-    grid-area: "info" "icon" "menu";
-    grid-template-columns: 50% 40% 40%;
-    grid-template-rows: 100px 100px 100px;
+    text-align: left;
+    margin-left: -120px;
+    grid-area: "info" "icon";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 100px;
 }
  footer ul {
      margin: 0;
@@ -322,20 +294,11 @@ hr {
 .info {
     margin: 20px;
     margin-left: 10px;
-    padding: 15px; 
+    padding: 0px; 
     text-align: left;
 }
 .icon {
-    margin: 20px;
-    padding: 45px;
-    margin-left: 100px;
+    margin-left: 250px;
+    padding: 20px;
+    float: right;
 }
-.menu {
-    margin: 20px;
-    margin-right: -60px;
-    padding: 30px;  
-}
-.menu:hover {
-    color: #000;
-    font-weight: bold;
-} 
