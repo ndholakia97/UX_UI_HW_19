@@ -1,6 +1,29 @@
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 <head>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" href="css/w3.css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script   src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script>
+        $(document).ready(function(){
+        $(window).scroll(function(){
+         if($(window).scrollTop() > 300){
+             $('i').css({
+                 "opacity":"1", "pointer-events":"auto"
+             }); 
+         } else{
+             $('i').css({
+                 "opacity":"0", "pointer-events":"none"
+             });
+         }  
+        });
+        $('i').click(function(){
+            $('html').animate({scrollTop:0}, 500);
+        });
+    }); 
+    </script>
     <script src="js/index.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -10,6 +33,7 @@
   
 <!--Nav Bar-->  
 <body>
+    <i class="fas fa-chevron-up"></i>
  <header>
      <div class="container">
         <img src="images/img_logo.png" alt="logo" class="logo">
@@ -26,6 +50,10 @@
     </div>
 </header>
 
+</div>
+
+
+
 <section class="heroImg">
     <div class="separator">
         <img src="images/img_profile_polaroid.png" class="right">
@@ -40,10 +68,10 @@
         <br>
         <br>
         <br>
-            <div>
-                <input type="button" id=Button1 value="View Work">
-                <input type="button" id=Button2 value="View Resume">
-            </div>
+        <div>
+            <button>View Work</button>
+            <button class=secondary>View Resume</button>
+        </div>
 <br>
 <br>
 <br>
@@ -69,6 +97,8 @@
 </div>
 </section>
 
+<br>
+<br>
 <!-- My Work Section Constructed using CSS Grid -->
 <section class="myWork">
     <div class="text">
@@ -111,7 +141,8 @@
                 <button>Read Case Study</button>
             </div>
 </div>
-
+<br>
+<br>
 <div>
     <h4>Always iterating so please do visit often</h4>
     <h5>“Digital design is like painting, except the paint never dries.”
@@ -125,8 +156,9 @@
     <h1>Let's Chat!</h1>
      <p> To learn more about me, my work, or to just chat over a coffee feel free to shoot me a message/email or give me a call :)</p>
      <br>
-        <input type="button" id=Button1 value="Contact">
-        <input type="button" id=Button2 value="About">
+     <div>
+        <button>Contact</button>
+        <button class=secondary>View Resume</button>
     </div>
 <br>
 <br>
@@ -135,6 +167,7 @@
 <br>
 
 </section>
+
 
     <footer>
      <div class="footerGrid">

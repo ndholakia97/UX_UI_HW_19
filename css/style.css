@@ -53,6 +53,21 @@ nav a {
 nav a:hover {
 color: #000;
 font-weight: bold;
+} 
+i {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 45px;
+    background: #057790;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+i:hover {
+    background: #3BA8C0;
+    transition: .3s;
 }
 .flexContainer {
     display: flex;
@@ -145,56 +160,6 @@ justify-content:left;
     align-content: flex-end;
     padding-left: 15px;
 }
-#button1 {
-    background-color: #057790;
-    color: #FFFFFF;
-    font-family: "Montserrat";
-    font-weight: bolder;
-    font-size: 22px;
-    border-radius: 10px;
-    stroke: white;
-    width: 30%;  
-    border: 2px solid #057790;
-    padding: 14px 28px;
-    cursor: pointer;
-
-}
-#button1:hover {
-    background-color: #3BA8C0;
-    color: #FFFFFF;
-    font-family: "Montserrat";
-    box-shadow: 0 0 15px #3BA8C0;
-    font-weight: bolder;
-    font-size: 22px;
-    border-radius: 10px;
-    stroke: white;
-    width: 30%;  
-    border: 2px solid #3BA8C0;
-    padding: 14px 28px;
-    cursor: pointer;
-}
-#button2 {
-    background-color: #FFFFFF;
-    color: #057790;
-    font-family: "Montserrat";
-    font-weight: bolder;
-    font-size: 22px;
-    border: 6pt black;
-    border-radius: 10px;
-    stroke: white;
-    width: 30%;  
-    border: 2px solid #057790;
-    padding: 14px 28px;
-    cursor: pointer;
-}
-#button2:hover {
-    background-color: #FFFFFF;
-    color: #057790;
-    box-shadow: 0 0 15px #3BA8C0; 
-    border: 2px solid #3BA8C0;
-    padding: 14px 28px;
-    cursor: pointer;
-}
 button {
     background-color: #057790;
     color: #FFFFFF;
@@ -215,7 +180,28 @@ button:hover {
     border-radius: 10px; 
     border: 2px solid #3BA8C0;
 }
-
+.secondary {
+    background-color: #FFFFFF;
+    color: #057790;
+    font-family: "Montserrat";
+    font-weight: bolder;
+    font-size: 22px;
+    border: 6pt black;
+    border-radius: 10px;
+    stroke: white;
+    width: 30%;  
+    border: 2px solid #057790;
+    padding: 14px 28px;
+    cursor: pointer;
+}
+.secondary:hover {
+    background-color: #FFFFFF;
+    color: #057790;
+    box-shadow: 0 0 15px #3BA8C0; 
+    border: 2px solid #3BA8C0;
+    padding: 14px 28px;
+    cursor: pointer;
+}
 .text {
 padding-top: initial;
 }
@@ -297,7 +283,7 @@ p {
 }
 hr {
     width: 90%;
-    height: 2px;
+    height: 4px;
     border-radius: 10px;
     color: #AC6E64;
     margin-top: 40px;
@@ -310,9 +296,9 @@ hr {
     padding-left: 10%;
     padding-right: 50%;
     padding-top: 10px;
-    width: 100%;
+    width: 179%;
     height: 200px;
-    margin-left: -360px;
+    margin-left: -470px;
     display: grid;
     grid-area: "info" "icon" "menu";
     grid-template-columns: 50% 40% 40%;
@@ -336,7 +322,7 @@ hr {
 .info {
     margin: 20px;
     margin-left: 10px;
-    padding: 5px; 
+    padding: 15px; 
     text-align: left;
 }
 .icon {
@@ -352,5 +338,4 @@ hr {
 .menu:hover {
     color: #000;
     font-weight: bold;
-    } 
-}
+} 
