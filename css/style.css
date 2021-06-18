@@ -190,6 +190,7 @@ justify-content:left;
     border: 3px solid #057790;
     padding: 14px 28px;
     cursor: pointer;
+    margin-left: 25px;
 }
 .secondary:hover {
     background-color: #FFFFFF;
@@ -198,6 +199,14 @@ justify-content:left;
     border: 2px solid #3BA8C0;
     padding: 14px 28px;
     cursor: pointer;
+}
+.iterating {
+    margin: 0 auto;
+    height: auto;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
 }
 /*==== Typography ====*/
 .text {
@@ -216,7 +225,7 @@ padding-top: initial;
     font-family: "Montserrat";
 }
 .section-title {
-    color: black;
+    color:  #057790;
     font-size: 38px;
     font-weight: 700;
     font-family: "Montserrat";   
@@ -227,8 +236,8 @@ padding-top: initial;
     font-weight: 400;
     font-family: "Montserrat";
 }
-.teal-text {
-    color: #A95547;
+.brown-text {
+    color: #057790;
     font-size: 40px;
     font-weight: 700;
     font-family: "Montserrat";
@@ -283,7 +292,6 @@ hr {
     justify-content: right;
     font-family: "Montserrat";
  }
-
  footer li {
     display: inline-block;
     padding: 10px;
